@@ -1,0 +1,37 @@
+{
+  "name": "cc04",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "idCC04": {
+      "type": "number",
+      "id": true
+    },
+    "fornecedor": {
+      "type": "string",
+      "required": true
+    },
+    "lote_queijo": {
+      "type": "number",
+      "required": true
+    },
+    "temperatura": {
+      "type": "number",
+      "required": true
+    },
+    "observacao": {
+      "type": "string"
+    },
+    "Identificador_idIdentificador": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

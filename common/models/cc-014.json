@@ -1,0 +1,63 @@
+{
+  "name": "cc014",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "idCC014": {
+      "type": "number",
+      "id": true
+    },
+    "lote_seq_molho": {
+      "type": "number",
+      "required": true
+    },
+    "tipo_molho": {
+      "type": "string",
+      "required": true
+    },
+    "num_batch": {
+      "type": "number",
+      "required": true
+    },
+    "Identificador_idIdentificador": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "tanques": {
+      "type": "hasMany",
+      "model": "tanque",
+      "foreignKey": "CC014_idCC014"
+    },
+    "insumos": {
+      "type": "hasAndBelongsToMany",
+      "model": "insumo",
+      "foreignKey": "CC014_idCC014",
+      "options": {
+        "disableInclude": true
+      }
+    },
+    "tanqueCozimentos": {
+      "type": "hasMany",
+      "model": "tanque_cozimento",
+      "foreignKey": "CC014_idCC014"
+    },
+    "tanqueRefogados": {
+      "type": "hasMany",
+      "model": "tanque_refogado",
+      "foreignKey": "CC014_idCC014"
+    },
+    "produtos": {
+      "type": "hasAndBelongsToMany",
+      "model": "produto",
+      "foreignKey": "CC014_idCC014"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

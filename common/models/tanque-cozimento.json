@@ -1,0 +1,38 @@
+{
+  "name": "tanque_cozimento",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "idTanque_Cozimento": {
+      "type": "number",
+      "id": true
+    },
+    "hora_inicio": {
+      "type": "string",
+      "required": true
+    },
+    "hora_termino": {
+      "type": "string",
+      "required": true
+    },
+    "viscosidade": {
+      "type": "number",
+      "required": true
+    },
+    "linha": {
+      "type": "number",
+      "required": true
+    },
+    "num_tanque": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
