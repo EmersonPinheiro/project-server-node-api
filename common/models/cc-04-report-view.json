@@ -1,34 +1,36 @@
 {
-  "name": "tanque_cozimento",
+  "name": "cc04_report_view",
+  "plural": "cc04_report_view",
   "base": "PersistedModel",
   "idInjection": false,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "idTanque_Cozimento": {
-      "type": "number",
+    "TURNO": {
+      "type": "number"
+    },
+    "INSERIDO_EM": {
+      "type": "any",
       "id": true
     },
-    "hora_inicio": {
-      "type": "string",
-      "required": true
+    "FORNECEDOR": {
+      "type": "string"
     },
-    "hora_termino": {
-      "type": "string",
-      "required": true
+    "TEMPERATURA": {
+      "type": "number"
     },
-    "viscosidade": {
-      "type": "number",
-      "required": true
+    "LOTE_DO_QUEIJO": {
+      "type": "number"
     },
-    "linha": {
-      "type": "number",
-      "required": true
+    "OBSERVACAO": {
+      "type": "string"
     },
-    "num_tanque": {
-      "type": "string",
-      "required": true
+    "INSERIDO_POR": {
+      "type": "string"
+    },
+    "FUNCAO": {
+      "type": "string"
     }
   },
   "validations": [],

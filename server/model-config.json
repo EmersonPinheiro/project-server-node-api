@@ -47,10 +47,6 @@
     "dataSource": "mysql",
     "public": true
   },
-  "form": {
-    "dataSource": "mysql",
-    "public": true
-  },
   "cc014": {
     "dataSource": "mysql",
     "public": true
@@ -67,11 +63,15 @@
     "dataSource": "mysql",
     "public": true
   },
-  "tipo_produto": {
+  "produto": {
     "dataSource": "mysql",
     "public": true
   },
-  "produto": {
+  "cc014_report_view": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "cc04_report_view": {
     "dataSource": "mysql",
     "public": true
   }

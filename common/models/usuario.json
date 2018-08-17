@@ -42,9 +42,15 @@
       "permission": "ALLOW"
     },
     {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "DENY"
+    },
+    {
       "accessType": "READ",
       "principalType": "ROLE",
-      "principalId": "$authenticated",
+      "principalId": "$unauthenticated",
       "permission": "ALLOW"
     }
   ],

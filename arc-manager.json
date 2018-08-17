@@ -1,0 +1,12 @@
+{
+  "ids": {
+    "ManagerHost": 2,
+    "LoadBalancer": 1
+  },
+  "models": {
+    "ManagerHost": {
+      "ce0945e5-bcc7-4a45-ba4b-bd43b85c0b13": "{\"id\":\"ce0945e5-bcc7-4a45-ba4b-bd43b85c0b13\",\"host\":\"localhost\",\"port\":3000,\"actions\":[\"delete\",\"edit\"],\"protocol\":\"http\",\"created\":1533816519681,\"error\":{\"message\":\"There is no method to handle GET /ServiceInstances/findOne\",\"status\":404},\"errorType\":\"invalid\",\"app\":null,\"processes\":null,\"$$hashKey\":\"object:118\",\"isHostProblem\":true}"
+    },
+    "LoadBalancer": {}
+  }
+}
